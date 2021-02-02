@@ -76,6 +76,7 @@
     flex:1;
     border:none;
     padding: 10px;
+    outline:none
 }
 .chat__footer>form>button{
     display: none;
