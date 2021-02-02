@@ -7,7 +7,7 @@ import {BrowserRouter as Router,Route,Switch } from 'react-router-dom'
 import {useStateValue} from "../src/StateProvider"
 
 function App() {
-  const [{ user }, dispatch] = useStateValue();
+  const [{ user }, ] = useStateValue();
   return (
     <div className="app">
       {!user ? (
